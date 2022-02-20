@@ -1,5 +1,9 @@
 function json(url) {
-  return fetch(url).then(res => res.json());
+  return fetch(url).then(res => 
+    {
+      res.json()
+                                
+                                });
 }
 
 let apiKey = '5b5f14723ccf3f576ce8c2e95b3b68bf9151303ea50c447f84ba9371';
